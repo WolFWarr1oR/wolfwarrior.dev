@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*[lang=ru_ru] h1, [lang=ru_ru] h2, [lang=ru_ru] h3, [lang=ru_ru] h4, [lang=ru_ru] h5, [lang=ru_ru] h6, html[lang=ru] h1, html[lang=ru] h2, html[lang=ru] h3, html[lang=ru] h4, html[lang=ru] h5, html[lang=ru] h6 {*/
+/*  font-family: 'Proxima Nova W10','Proxima Nova W02',Arial,sans-serif;*/
+/*}*/
+*{
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  padding: 0;
+  background-color: #0f172a;
+  color: #38bdf8;
+  min-height: 100vh;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /*font-family: 'Proxima Nova W10','Proxima Nova W02',Arial,sans-serif;*/
+}
+
+h1, h2, h3, h4, h5, h6{
+  /*font-family: 'Proxima Nova W10','Proxima Nova W02',Arial,sans-serif;*/
+  font-family: 'Industry-Black', sans-serif;
+  font-weight: 700;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
