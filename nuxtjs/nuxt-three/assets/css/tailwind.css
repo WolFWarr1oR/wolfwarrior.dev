@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  /* justify-content: center;
+  align-content: center; */
+}
+
+/* .index{
+  min-height: calc(100vh - 60px);
+} */

@@ -1,0 +1,23 @@
+{
+  // https://v3.nuxtjs.org/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "paths": {
+    "~/*": [
+      "./*"
+    ],
+    "@/*": [
+      "./*"
+    ]
+  },
+  "compilerOptions":{
+    "types":[
+      "@types/node",
+      "@nuxt/types",
+      "@nuxtjs/i18n"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+
+  ]
+}

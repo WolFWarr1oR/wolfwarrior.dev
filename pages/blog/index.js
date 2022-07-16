@@ -15,6 +15,10 @@ export async function getStaticProps(){
     const markdownWithMeta = fs.readFileSync(path.join('posts', filename), 'utf8')
 
     console.log(markdownWithMeta)
+
+    return {
+      slug,
+    }
   })
 
 
